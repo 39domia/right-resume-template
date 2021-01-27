@@ -6,7 +6,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="assets/vendors/fontawesome-free-5.15.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<!--    <link rel="stylesheet" href="assets/vendors/fontawesome-free-5.15.1/css/all.min.css">-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Right Resume</title>
 </head>
@@ -31,7 +33,6 @@
                 <div class="header-avatar">
                     <div class="picture-frame">
                         <img src="assets/image/avatar.jpg" alt="" width="200" height="200">
-
                     </div>
                 </div>
                 <div class="header-info">
@@ -45,7 +46,7 @@
             </div>
             <div id="about-me" class="grid pt4 pr4 pl4">
                 <div class="about-me-left ">
-                    <div class="header">About Me</div>
+                    <div class="header mb-3">About Me</div>
                     <p>Hello! I’m Joyce Harrison. I am passionate about UI/UX design and Web Design. I am a skilled
                         Front-end Developer and master of Graphic Design tools such as Photoshop and Sketch.</p>
                 </div>
@@ -64,7 +65,7 @@
             </div>
             <hr class="d-print-none">
             <div id="skills" class="pr4 pl4">
-                <div class="skills-title ">
+                <div class="skills-title mb-4">
                     <div class="header">Professional Skills</div>
                 </div>
                 <div class="skills-progress grid">
@@ -194,14 +195,57 @@
                 </div>
             </div>
             <hr class="d-print-none">
-            <div id="contact" class="pr4 pl4">
+            <div id="contact" class="pr4 pl4 pb4">
                 <div class="contact-title mb-4">
                     <div class="header">Contact</div>
                 </div>
-                <div class="grid"></div>
+                <div class="grid">
+                    <div class="contact-left">
+                        <div class="row">
+                            <div class="col-6 contact-input">
+                                <input class="form-control" type="text" id="name" name="name" placeholder="Your Name"
+                                       required="">
+                            </div>
+                            <div class="col-6 contact-input">
+                                <input class="form-control" type="text" id="email" name="email" placeholder="Your Email"
+                                       required="">
+                            </div>
+                        </div>
+                        <div class="contact-textarea mt-2 mb-2">
+                            <textarea class="form-control mb1" style="resize: none;" id="message" name="message"
+                                      rows="4"
+                                      placeholder="Your Message" required=""></textarea>
+                        </div>
+                        <button class="btn btn-blue mt-2 ml-2" type="submit">Send</button>
+                    </div>
+                    <div class="contact-right">
+                        <div class="mt-2 ml-2">
+                            <h3 class="h6">Address</h3>
+                            <div class="pb-2 text-secondary">140, City Center, New York, U.S.A</div>
+                            <h3 class="h6">Phone</h3>
+                            <div class="pb-2 text-secondary">+0718-111-0011</div>
+                            <h3 class="h6">Email</h3>
+                            <div class="pb-2 text-secondary">Joyce@company.com</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <footer id="footer" class="pt4 pb4 text-muted text-center d-print-none mt-4">
+        <h4 class="footer-title header">Joyce Harrison
+        </h4>
+        <ul class="flex-jus-con-space-around mb-4">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-github"></i></a></li>
+        </ul>
+        <div class="credit">
+            <p>© Right Resume. All rights reserved.</p>
+            <p>Design - TemplateFlip</p>
+        </div>
+    </footer>
 </div>
 
 </body>
