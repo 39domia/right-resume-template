@@ -1,0 +1,13 @@
+#education .timeline-card-primary {
+    border-left-color: var(--green-color) !important;
+}
+#education .timeline-card-primary:after {
+    background-color: var(--green-color) !important;
+}
+#education .timeline-card-primary:before {
+    border-color: var(--green-color) !important;
+}
+.education-timeline {
+    border-left: 2px solid #e6e9ed;
+    padding: 1rem 0;
+}

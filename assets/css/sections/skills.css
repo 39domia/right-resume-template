@@ -1,0 +1,28 @@
+.skills-progress-left {
+    grid-column: 1 /span 6;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.skills-progress-right {
+    grid-column: 7/span 6;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.skill-progress {
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.skills-progress-left .skill-progress-time {
+    height: 16px;
+    background-color: var(--blue-color);
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+}
+.skills-progress-right .skill-progress-time {
+    height: 16px;
+    background-color: var(--green-color);
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+}
