@@ -1,8 +1,3 @@
-.filter_grayscale {
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-}
-
 #top-header {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
@@ -46,19 +41,22 @@
     padding-bottom: 25px;
 
 }
-.header-avatar img {
+.header-avatar > img {
+    width: 216px;
+    height: 216px;
     filter: grayscale(100%);
+    position: relative;
+    top: 1.5rem;
+    background-color: white;
+    padding: .5rem;
+    display: inline-block;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
 }
 .header-info_name {
     font-size: 40px !important;
 }
 .picture-frame {
-    position: relative;
-    top: 1.75rem;
-    background-color: white;
-    padding: .5rem;
-    display: inline-block;
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+
 }
 .main-header {
     /*border-top-left-radius: 10px;*/
